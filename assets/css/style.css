@@ -198,7 +198,10 @@ header .link:hover {
     max-width: 1000px;
     margin: auto;
 }
-
+.call-to{
+    max-width: 100%;
+    margin: auto;
+}
 /*#endregion-container */
 /*#region-row */
 .row.large {
@@ -407,4 +410,14 @@ li {
     text-align: start;
     padding-left: 40px;
     padding-top: 80px;
+}
+.col-bottom h3, .price-card, .users, .terabyte, .function {
+padding-bottom: 25px;
+}
+#app-main  hr{
+   margin-bottom: 100px;
+   margin-top: 100px;
+}
+.button.card{
+    margin-bottom: 250px;/* sistema qui #1 */
 }
