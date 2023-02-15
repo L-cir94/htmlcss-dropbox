@@ -546,4 +546,23 @@ svg{
 .FAQ .sm{
     flex-direction: column;
 }
+.main-title{
+    padding-bottom: 50px;
+}
+.FAQ-border{
+    display: flex;
+    padding: 50px 0 ;
+    border-top: solid 1px ;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.FAQ{
+    margin: 100px 0;
+}
+#bb{
+    border-bottom: solid 1px ;
+}
+.fa-angle-down{
+
+}
 /*#endregion section call-to-action */
