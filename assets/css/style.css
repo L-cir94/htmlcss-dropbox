@@ -244,7 +244,14 @@ header .link:hover {
 }
 
 .partners {}
-
+.d-flex .dx{
+    flex-direction: column;
+    gap: 2rem;
+}
+.d-flex .button-white{
+    width: 70%;
+    text-align: center;
+}
 .operations {
     margin-top: 200px;
 }
