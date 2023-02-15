@@ -178,7 +178,10 @@ header .link:hover {
 
 
 }
-
+.ipertext{
+    color: #000000;
+    text-decoration: none;
+}
 /*#endregion-nav-header */
 /*#region-container */
 .header {
@@ -529,14 +532,27 @@ background-color: var(--db-firm-designIT);
 #topps{
 
 }
+#hearst{
+    background-color: var(--db-firm-hearst);
+}
+#lonely{
+    background-color: var(--db-firm-lonely);
+}
+#clear{
+    background-color: var(--db-firm-clearchannel);
+}
+#bicycle{
+    background-color: var(--db-firm-bicycle);
+}
 svg{
     width: 100%;
     height: 100%;
     fill: var(--db--white);
+    path:var(--db--white)
 }
 /*#endregion style id firm */
 .banner .large{
-    background-color: var(--db-centralbanner);
+    background-color: var(--db-jumbutron);
 
 }
 .d-flex.text-banner{
