@@ -432,49 +432,72 @@ li {
     /* sistema qui #1 */
 }
 
-/* #regionsection call-to-action */
-.banner {
-    padding-top: 200px;
-}
-
 .call-to-action .link {
     color: blue;
     text-decoration: underline;
 }
 
+/* #regionsection call-to-action */
+.banner {
+    padding-top: 200px;
+}
+
 .debug .product {
-    width: calc ( 100% / 3 * 1);
+    width: calc (100% / 3 * 1);
     border: dashed;
     height: 100px;
     background-color: #616deb;
 }
 
-.product {
-    width: calc(100% / 3 * 1 );
-    flex-wrap: wrap;
-}
-
-.text-banner {
-    width: 100%;
-    border: dashed;
-    height: 100px;
-    background-color: #616deb;
-}
-.middle{
-    width: calc( 100% / 3 * 1);
-}
-.text-banner {
-    width: 100%;
-}
-.debug .firm{
-    width: calc( 100% / 2 * 1) ;
+.debug .firm {
+    width: calc(100% / 2 * 1);
 
     background-color: #d5d6e2;
     flex-direction: column;
 }
-.debug .middle{
-    background-color: #616deb;  
+
+.debug .middle {
+    background-color: #616deb;
     border: dashed;
     height: 100px;
+}
+.firm {
+    width: calc(100% / 2 * 1);
+    flex-direction: column;}
+
+.product {
+    width: calc(100% / 3 * 1);
+    flex-wrap: wrap;
+}
+
+.debug .text-banner {
+    width: 100%;
+    border: dashed;
+    height: 100px;
+    background-color: #616deb;
+}
+
+.middle {
+    width: calc(100% / 3 * 1);
+}
+
+.text-banner {
+    width: 100%;
+}
+.firm{
+    padding: 50px;
+}
+.middle-text{
+    flex-direction: column;
+    gap: 1rem;
+    padding: 35px;
+}
+.logo-designit img{
+    width: 50%;
+
+}
+.logo-designit hr{
+    width: 60px;
+    margin-bottom: -70px;
 }
 /* #endregionsection call-to-action */
