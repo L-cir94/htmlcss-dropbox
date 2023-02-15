@@ -18,6 +18,7 @@
     --db-firm-designIT: #a2d39b;
     --db-firm-ASU: #61082b;
     --db-footer: #000000;
+    --db--white: white;
 }
 
 .d-flex {
@@ -198,10 +199,12 @@ header .link:hover {
     max-width: 1000px;
     margin: auto;
 }
-.call-to{
+
+.call-to {
     max-width: 100%;
     margin: auto;
 }
+
 /*#endregion-container */
 /*#region-row */
 .row.large {
@@ -211,10 +214,11 @@ header .link:hover {
     flex-direction: column;
     width: 80%;
 }
-.row-operation{
+
+.row-operation {
     display: flex;
     flex-wrap: wrap;
-;
+    ;
 }
 
 
@@ -243,12 +247,11 @@ header .link:hover {
     padding-top: 200px;
 }
 
-.teams{
+.teams {
     padding-top: 200px;
 }
-.call-to-action{
-    padding-top: 200px;
-}
+
+
 
 .FAQ {}
 
@@ -260,10 +263,8 @@ header .link:hover {
     width: 100%;
 
 }
-.call-to-action .link{
-color:blue;
-text-decoration: underline;
-}
+
+
 .testo-jumbutron {
     display: flex;
     height: 100%;
@@ -280,10 +281,9 @@ text-decoration: underline;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 3rem;
     justify-content: flex-start;
     align-items: flex-start;
-
 }
 
 .jumbutron p {
@@ -301,7 +301,7 @@ text-decoration: underline;
 }
 
 .img-jumbo {
-    width: 70%;
+    max-width: 70%;
     margin-bottom: -45px;
 }
 
@@ -332,9 +332,11 @@ footer .col-2 {
     justify-content: flex-start;
     gap: 0.6rem;
 }
-img{
-    width: 100%;
+
+img {
+    max-width: 100%;
 }
+
 li {
     list-style: none;
 }
@@ -411,16 +413,68 @@ li {
     padding-left: 40px;
     padding-top: 80px;
 }
-.col-bottom h3, .price-card, .users, .terabyte, .function {
-padding-bottom: 25px;
-}
-#app-main  hr{
-   margin-bottom: 100px;
-   margin-top: 100px;
-}
-.button.card{
-    margin-bottom: 250px;/* sistema qui #1 */
-}
-/* #regionsection call-to-action */
 
+.col-bottom h3,
+.price-card,
+.users,
+.terabyte,
+.function {
+    padding-bottom: 25px;
+}
+
+#app-main hr {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.button.card {
+    margin-bottom: 250px;
+    /* sistema qui #1 */
+}
+
+/* #regionsection call-to-action */
+.banner {
+    padding-top: 200px;
+}
+
+.call-to-action .link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.debug .product {
+    width: calc ( 100% / 3 * 1);
+    border: dashed;
+    height: 100px;
+    background-color: #616deb;
+}
+
+.product {
+    width: calc(100% / 3 * 1 );
+    flex-wrap: wrap;
+}
+
+.text-banner {
+    width: 100%;
+    border: dashed;
+    height: 100px;
+    background-color: #616deb;
+}
+.middle{
+    width: calc( 100% / 3 * 1);
+}
+.text-banner {
+    width: 100%;
+}
+.debug .firm{
+    width: calc( 100% / 2 * 1) ;
+
+    background-color: #d5d6e2;
+    flex-direction: column;
+}
+.debug .middle{
+    background-color: #616deb;  
+    border: dashed;
+    height: 100px;
+}
 /* #endregionsection call-to-action */
