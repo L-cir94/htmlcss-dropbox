@@ -41,7 +41,7 @@ main {}
 footer {
     background-color: var(--db-footer);
     width: 100%;
-    height: 40rem;
+    height: 30rem;
     color: white;
     padding-top: 2rem;
     padding-bottom: 1rem;
@@ -107,12 +107,18 @@ section {
 .col-4 {
     width: calc(100% / 12 * 4);
 }
-
+.calltoaction{
+    line-height: 4;
+}
 .col-bottom hr {
     width: 35%;
     margin-top: 40px;
-}
 
+}
+.trattino{
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
 .col-5 {
     width: calc(100% / 12 * 5);
 }
@@ -135,6 +141,7 @@ section {
     line-height: 2;
     border: solid 0.5px;
     border-top: none;
+
 }
 
 .m-top {
@@ -251,7 +258,7 @@ header .link:hover {
     gap: 2rem;
 }
 .d-flex .button-white{
-    width: 70%;
+    width: 65%;
     text-align: center;
 }
 .operations {
@@ -262,7 +269,9 @@ header .link:hover {
     margin-top: 200px;
 }
 
-
+.teams h1{
+    padding-bottom: 50px;
+}
 
 .FAQ {}
 
@@ -329,12 +338,12 @@ footer .col-4 {
     flex-direction: column;
     align-items: flex-start;
     text-align: start;
+    height: auto;
 }
 
 footer .col-3 {
     width: calc(100% /12 * 2);
-
-
+    margin-top: ;
 }
 
 footer .col-2 {
@@ -343,7 +352,9 @@ footer .col-2 {
     justify-content: flex-start;
     gap: 0.6rem;
 }
-
+footer h3{
+    padding-bottom: 15px;
+}
 img {
     max-width: 100%;
 }
@@ -405,7 +416,11 @@ li {
 
 
 }
-
+.d-flex .col-bottom{
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.2rem;
+}
 .left img {
     width: 100%;
 }
@@ -484,13 +499,18 @@ li {
 
 }
 
+.bttm-description{
+    line-height: 3;
+}
 .debug .text-banner {
     width: 100%;
     border: dashed;
     height: 100px;
-    background-color: #616deb;
+    background-color: blue;
 }
-
+.fa-check{
+    color: #0095ff;
+}
 .middle {
     width: calc(100% / 3 * 1);
     min-height: 100%;
@@ -502,7 +522,7 @@ li {
 .firm{
     padding: 50px;
 justify-content: center;
-height: 250px;
+height: 215px;
 }
 .middle-text{
     flex-direction: column;
