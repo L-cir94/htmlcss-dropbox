@@ -130,8 +130,13 @@ section {
 
 .col-12 {
     width: 100%;
-}
 
+}
+.bottom{
+    border: solid 1px;
+    border-top: none;
+    padding: 2rem;
+}
 .col-top {
     text-align: center;
     line-height: 1.2;
@@ -565,7 +570,8 @@ height: 215px;
     flex-direction: column;
 }
 .hr{
-    margin-top: -60px;
+    margin-top: -100px;
+    margin-bottom: -100px;
     width: 30%;
 }
 .banner .button-white {
